@@ -26,6 +26,7 @@ this project uses poetry to install look [here](https://python-poetry.org/docs/)
 - Paste Device ID into keys.py 
 - Run Server `poetry run python3 main.py` (will run on port 1200)
 - EXTRA: if you would like it to work on other networks you can setup a cloudflare tunnel
+- (I am running the sever on a Raspberry PI at my house, but can be run in something like an EC2 Container instead)
 
 ### Arduino SETUP
 - Install the libraries and make sure ESP32 is Setup with arduino IDE([instructions](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/))
