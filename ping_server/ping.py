@@ -51,7 +51,7 @@ elif api.requires_2sa:
 
 def find():
     # pprint(api.devices)
-    print(api.devices[keys.ICLOUD_DEVICEID].status())
+    (api.devices[keys.ICLOUD_DEVICEID].play_sound())
 
 
 def findDeviceID():

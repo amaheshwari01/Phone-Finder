@@ -54,7 +54,7 @@ void setup()
     {
       tp.DotStar_SetPixelColor(255, 255, 0);
 
-      http.begin("");                           // MAKE SURE TO FILL OUT THE IP ADDRESS/URL of the Server OF THE SERVER(Port may be required)
+      http.begin("<Your Server URL>");          // MAKE SURE TO FILL OUT THE IP ADDRESS/URL of the Server OF THE SERVER(Port may be required)
       http.addHeader("X-API-Key", "<API KEY>"); // MAKE SURE TO FILL OUAT API KEY OF THE SERVER AND MAKE IT THE SAME AS WHAT IS SETUP IN THE PYTHON SCRIPT
       httpCode = http.GET();
       tp.DotStar_SetPixelColor(0, 0, 255);
