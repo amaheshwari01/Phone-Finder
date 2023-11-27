@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ping-server"
+version = "0.1.0"
+description = ""
+authors = ["amaheshwari01 <acoding2007@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.0"
+waitress = "^2.1.2"
+pyicloud = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

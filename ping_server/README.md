@@ -1,0 +1,1 @@
+This is the server that handles requests and pings your phone - See main README for info on how to setup
