@@ -1,7 +1,7 @@
 import json
 from flask import Flask, request
 from waitress import serve
-from ping_server.ping import find
+from ping import find
 import keys
 
 app = Flask(__name__)
@@ -15,7 +15,7 @@ def protected_function():
     print(api_key)
 
     # Check if the API key is valid
-    if api_key == keys.ICLOUD_DEVICEIDAPI_KEY:
+    if api_key == keys.API_KEY:
         # Run your Python function
         print("looking")
         try:
